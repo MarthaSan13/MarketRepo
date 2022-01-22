@@ -52,3 +52,17 @@
   left: 0;
   margin: 0;
 }
+
+.cartshop {
+  color: wheat;
+  font-size: 2em;
+}
+
+.itemList{
+  background-color: white;
+  border-radius: 2em;
+  color: #d30b7a;
+  font-size: 14px;
+  width: 30%;
+  padding: 20px;
+}
