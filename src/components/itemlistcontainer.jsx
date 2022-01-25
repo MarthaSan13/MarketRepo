@@ -1,11 +1,14 @@
 import React, { Fragment } from 'react';
+//import ItemList from  './itemlist';
+import ItemList from  './itemlist';
 
 const ItemListContainer = () => {
 
         return(
             <Fragment>
-                <div className='itemList'>
-                    <h3>Esta será la lista de Items :D</h3>   
+                <div className='itemListContainer'>
+                    <h3 className='itemListTitle'>Lista de productos</h3>  
+                    <ItemList/> 
                 </div>
             </Fragment>
         )

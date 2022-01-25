@@ -2,13 +2,7 @@ import React, { Fragment } from 'react';
 import logo from '../logo.svg';
 import CartWidget from  './cartwidget';
 
-const Navbar = () => {
-        const CustomStyle= {
-            backgroundColor: "gray",
-            padding: 20,
-            color: "white",
-            fontSize: "25px"
-        }       
+const Navbar = () => {          
 
         return(
             <Fragment>
@@ -19,7 +13,7 @@ const Navbar = () => {
                         <li>Productos</li>
                         <li>Destacados</li>
                         <li>Tu cuenta</li>
-                        <CartWidget></CartWidget>
+                        <CartWidget/>
                     </ul>                    
                 </navbar>    
                         

@@ -1,19 +1,11 @@
 import React, { Fragment } from 'react';
 
-const Footer = (props) => {
-        const CustomStyle= {
-            backgroundColor: "black",
-            padding: 20,
-            color: "white",
-            fontSize: "20px"
-        }
-
+const Footer = (props) => {  
         return(
             <Fragment>
-            <div style={CustomStyle}>{props.mensaje}</div>          
+            <div className='footer'>{props.mensaje}</div>          
             </Fragment>
-        )
-    
+        )    
 }
 
 

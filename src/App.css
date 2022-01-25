@@ -36,7 +36,12 @@
     transform: rotate(360deg);
   }
 }
-
+.footer{
+  background-color: black;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
 .navlist > ul{
   list-style: none;
   background-color: #d30b7a;
@@ -58,11 +63,27 @@
   font-size: 2em;
 }
 
-.itemList{
+.itemListContainer{
   background-color: white;
   border-radius: 2em;
   color: #d30b7a;
   font-size: 14px;
-  width: 30%;
+  width: 90%;
   padding: 20px;
+}
+.itemListTitle{
+  padding: 20px;
+}
+.itemsList{  
+  display: flex;
+  gap: 1em;
+  justify-content: space-around;
+    align-items: center;
+}
+.item{
+  padding: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  border: 2px solid #cdcfd3;
+  border-radius: 1em;
 }
